@@ -11,10 +11,75 @@
     <body>
          <!-- Navigation Bar -->
         <div class="navbar">
-            <a class="active" href="#">Main Page</a>
-            <a href="recipepage.html">Recipe Page</a>
+            <a href="index.html">Main Page</a>
+            <a class="active" href="styles.html">Recipe Page</a>
             <a href="#">Add Recipe</a>
         </div>
+
+        <!-- Main Page -->
+        <div class="main-page">
+            <div class="title">
+                <h1>Recipe List</h1>
+            </div>
+
+
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search the food you'd like to know about..">
+                <button onclick="searchFood()">Search</button>
+            </div>
+            <div id="searchResults">
+                <!-- Search results will be displayed here -->
+            </div>
+
+
+            <div class="recipe-table">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="post-content">
+                                <div class="post-description">
+                                    <a href="page1.html">Title 1</a><br>
+                                    Phở bò, a quintessential dish of Vietnamese cuisine,
+                                     is a hearty and aromatic beef noodle soup 
+                                     that embodies the essence of Vietnamese
+                                      flavors. Steeped in history and tradition,
+                                       this beloved dish consists of tender slices 
+                                       of beef, rice noodles, and a fragrant broth 
+                                       infused with spices such as star anise, cinnamon,
+                                        and cloves.<br>
+                                </div>
+
+                                <div class="post-image">
+                                    <a href="page1.html"><img src="./media/pho.jpg" alt="Image 1"></a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="page2.html">Title 2</a><br>
+                            Description below title 2<br>
+                            <a href="page2.html"><img src="./media/banhmi.jpg" alt="Image 2"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="page2.html">Title 2</a><br>
+                            Description below title 2<br>
+                            <a href="page2.html"><img src="./media/nemcuon.jpg" alt="Image 3"></a>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+
+
+
+        </div>
+
+
+        <script src="./javascript/recipe-page-script.js"></script>
     </body>
 </html>
 
