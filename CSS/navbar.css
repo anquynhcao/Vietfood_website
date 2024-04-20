@@ -1,7 +1,7 @@
 /* Navigation Bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #6b6b6b;
   }
   
   .navbar a {
@@ -13,13 +13,15 @@
     text-decoration: none;
     font-size: 14px;
     transition: opacity 0.3s ease;
-    opacity: 0.8;
+    
 
   }
   
   .navbar a:hover {
     background-color: #aea8a8;
     color: rgb(35, 35, 35);
+    opacity: 0.8;
+
 
   }
   
