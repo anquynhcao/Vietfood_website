@@ -1,21 +1,9 @@
-/* Add your existing CSS styles here */
-body {
-  font-family: "Segoe UI", sans-serif; /* Add font-family */
-}
-
-
 
 /* Title Big*/
 .title {
   text-align: center;
   font-size: 25px;
   margin-top: 20px;
-}
-
-.main-page {
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
 }
 
 * {box-sizing:border-box}
@@ -184,93 +172,3 @@ hr {
   
 }
 
-
-
-/* Page 2 */
-/* CSS for search button */
-.search {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.search input[type="text"] {
-  padding: 8px;
-  width: 600px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.search button {
-  padding: 8px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  margin-left: 5px; /* Add spacing between input and button */
-}
-
-.search button:hover {
-  background-color: #45a049;
-}
-
-
-
-
-/* recipe table content */
-
-.recipe-table {
-  margin-top: 20px;
-}
-
-.recipe-table table {
-  width: 100%;
-}
-
-.recipe-table td {
-  vertical-align: top;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.recipe-table a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.recipe-table img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 10px;
-}
-
-.container {
-  display: flex; /* Use flexbox */
-}
-
-.left {
-  flex: 7; /* Takes 70% of the container */
-  background-color: #f0f0f0; /* Just for visualization */
-}
-
-.right {
-  flex: 3; /* Takes 30% of the container */
-  background-color: #ccc; /* Just for visualization */
-}
-
-.post-content {
-  display: flex;
-}
-
-.post-description {
-  flex:7;
-  text-align: justify;
-  margin: 20px;
-}
-
-.post-image {
-  flex: 3;
-}

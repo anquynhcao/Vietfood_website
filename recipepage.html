@@ -4,15 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>VietFood Recipes Detail Page</title>
-        <link rel="stylesheet" href="./CSS/styles.css">
-        <link rel="stylesheet" href="./CSS/navbar.css">
+        <link rel="stylesheet" href="./CSS/recipepage.css">
+        <link rel="stylesheet" href="./CSS/header.css">
         <link rel="stylesheet" href="./CSS/footer.css">
     </head>
     <body>
          <!-- Navigation Bar -->
         <div class="navbar">
             <a href="index.html">Main Page</a>
-            <a class="active" href="styles.html">Recipe Page</a>
+            <a class="active" href="recipepage.html">Recipe Page</a>
             <a href="#">Add Recipe</a>
         </div>
 
@@ -32,51 +32,120 @@
             </div>
 
 
+            
+
+
             <div class="recipe-table">
                 <table>
                     <tr>
                         <td>
                             <div class="post-content">
-                                <div class="post-description">
-                                    <a href="page1.html">Title 1</a><br>
-                                    Phở bò, a quintessential dish of Vietnamese cuisine,
-                                     is a hearty and aromatic beef noodle soup 
-                                     that embodies the essence of Vietnamese
-                                      flavors. Steeped in history and tradition,
-                                       this beloved dish consists of tender slices 
-                                       of beef, rice noodles, and a fragrant broth 
-                                       infused with spices such as star anise, cinnamon,
-                                        and cloves.<br>
-                                </div>
 
                                 <div class="post-image">
-                                    <a href="page1.html"><img src="./media/pho.jpg" alt="Image 1"></a>
+                                    <a href="phobo.html"><img src="./media/pho.jpg" alt="Image 1"></a>
                                 </div>
+
+                                <div class="post-description">
+                                    
+                                    <a class ="post-name" href="phobo.html">Pho Bo</a><br>
+
+                                    <p>Phở bò, a quintessential dish of Vietnamese cuisine, 
+                                    is a hearty and aromatic beef noodle soup that embodies 
+                                    the essence of Vietnamese flavors. 
+                                    Steeped in history and tradition, this beloved 
+                                    dish consists of tender slices of beef, rice noodles
+                                    , and a fragrant broth infused with spices such as
+                                     star anise, cinnamon, and cloves.</p>
+                                </div>
+            
+                                
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <a href="page2.html">Title 2</a><br>
-                            Description below title 2<br>
-                            <a href="page2.html"><img src="./media/banhmi.jpg" alt="Image 2"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="page2.html">Title 2</a><br>
-                            Description below title 2<br>
-                            <a href="page2.html"><img src="./media/nemcuon.jpg" alt="Image 3"></a>
-                        </td>
-                    </tr>
                     
+                    <tr>
+                        <td>
+                            <div class="post-content">
+
+                                <div class="post-image">
+                                    <a href="banhmi.html"><img src="./media/banhmi.jpg" alt="Image 2"></a>
+                                </div>
+
+                                <div class="post-description">
+                                    <a class="post-name" href="banhmi.html">Banh Mi</a><br>
+                                    <p>Bánh mì, a delectable fusion of French and Vietnamese 
+                                        culinary influences, is a beloved street food staple 
+                                        that has captured the hearts and taste buds of food 
+                                        enthusiasts around the globe. Originating from the 
+                                        vibrant streets of Saigon, this iconic sandwich is a 
+                                        testament to Vietnam's rich cultural tapestry and 
+                                        its ability to adapt and innovate.</p>
+                                </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="post-content">
+                                <div class="post-image">
+                                    <a href="nemcuon.html"><img src="./media/nemcuon.jpg" alt="Image 3"></a>
+                                </div>
+
+
+                                <div class="post-description">
+                                    <a class="post-name" href="nemcuon.html">Nem Cuon</a><br>
+                                    <p>Nem cuốn, also known as Vietnamese fresh spring rolls, 
+                                        offers a refreshing and flavorful twist to traditional 
+                                        spring rolls. Originating from the vibrant culinary 
+                                        landscape of Vietnam, nem cuốn embodies the essence 
+                                        of Vietnamese cuisine with its light, healthy, and vibrant 
+                                        ingredients.</p>
+                                </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+
+
                 </table>
             </div>
+            
+
+            <!-- pagination -->
+            <div class="pagination">
+                <a href="#" class="prev">&#10094; Previous</a>
+                <a href="#" class="page active">1</a>
+                <a href="#" class="page">2</a>
+                <a href="#" class="page">3</a>
+                <a href="#" class="page">4</a>
+                <a href="#" class="page">5</a>
+                <a href="#" class="next">Next &#10095;</a>
+              </div>
 
 
 
 
         </div>
+
+
+
+        <!-- Footer -->
+    <footer class="footer">
+            
+        <address>
+            <p>Contact:</p>
+            <p>Cao Quynh An – Budapest, Hungary</p>
+            <a href="mailto:ancaoquynh@gmail.com">ancaoquynh@gmail.com</a>
+        </address>
+        <br>
+    </footer>
+
 
 
         <script src="./javascript/recipe-page-script.js"></script>

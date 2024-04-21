@@ -1,4 +1,4 @@
-/* Navigation Bar */
+/* Navigation Bar & body main page*/
 .navbar {
     overflow: hidden;
     background-color: #6b6b6b;
@@ -30,4 +30,30 @@
     background-color: #ddd;
     color: rgb(12, 12, 12);
   }
+
+
+  /* body main page */
+  body {
+    font-family: "Segoe UI", sans-serif; 
+  }
+  
+  
+
+  .main-page {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+
+a {
+    color: #1a73e8;
+}
+
+a:visited {
+  color: #663399; 
+  font-weight: bold; 
+}
+
+
   
