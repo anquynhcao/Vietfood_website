@@ -46,6 +46,10 @@ body {
   text-align: justify;
 }
 
+* {
+  box-sizing: border-box
+}
+
 
 a {
   color: #1a73e8;
