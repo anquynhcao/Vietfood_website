@@ -1,61 +1,57 @@
 /* Navigation Bar & body main page*/
 .navbar {
-    overflow: hidden;
-    background-color: #6b6b6b;
-  }
-  
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 14px;
-    transition: opacity 0.3s ease;
-    
+  overflow: hidden;
+  background-color: #6b6b6b;
+}
 
-  }
-  
-  .navbar a:hover {
-    background-color: #aea8a8;
-    color: rgb(35, 35, 35);
-    opacity: 0.8;
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.3s ease;
 
 
-  }
-  
-  .navbar a.active {
-    font-weight: bold;
-    background-color: #ddd;
-    color: rgb(12, 12, 12);
-  }
+}
+
+.navbar a:hover {
+  background-color: #aea8a8;
+  color: rgb(35, 35, 35);
+  opacity: 0.8;
 
 
-  /* body main page */
-  body {
-    font-family: "Segoe UI", sans-serif; 
-  }
-  
-  
+}
 
-  .main-page {
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    text-align: justify;
-  }
+.navbar a.active {
+  font-weight: bold;
+  background-color: #ddd;
+  color: rgb(12, 12, 12);
+}
+
+
+/* body main page */
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+.main-page {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  text-align: justify;
+}
 
 
 a {
-    color: #1a73e8;
+  color: #1a73e8;
 }
 
 a:visited {
-  color: #663399; 
-  font-weight: bold; 
+  color: #663399;
+  font-weight: bold;
 }
-
-
-
-  
