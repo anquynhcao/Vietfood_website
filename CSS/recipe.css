@@ -12,6 +12,7 @@
 }
 
 .breadcrumb-nav a:hover {
+  color: #01447e;
   text-decoration: underline;
 }
 
@@ -22,7 +23,7 @@
 /* title */
 .title h2 {
   margin: 10px 0px 0px 0px;
-  font-size: 30px;
+  font-size: 40px;
 
 }
 

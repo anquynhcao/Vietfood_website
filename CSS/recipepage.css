@@ -22,6 +22,11 @@
 
 }
 
+.search-result a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
 /* .search button {
     padding: 8px 20px;
     background-color: #4CAF50;
@@ -61,6 +66,12 @@
   font-weight: bold;
 }
 
+.recipe-table a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
 .recipe-table img {
   width: 100%;
   height: 100%;
@@ -73,6 +84,7 @@
   font-size: 25px;
   font-weight: bold;
 }
+
 
 .post-content {
   display: flex;
