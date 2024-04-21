@@ -22,5 +22,5 @@ The VietFood website project focuses on showcasing Vietnamese cuisine and culina
 2. **Design**: Create wireframes and prototypes.
 3. **Development**: Implement HTML, CSS, and JavaScript.
 4. **Testing**: Ensure compatibility and functionality.
-5. **Deployment**: Upload files to a web server.
+
 
