@@ -43,6 +43,7 @@
     max-width: 800px;
     margin: 0 auto;
     position: relative;
+    text-align: justify;
   }
 
 
@@ -54,6 +55,7 @@ a:visited {
   color: #663399; 
   font-weight: bold; 
 }
+
 
 
   

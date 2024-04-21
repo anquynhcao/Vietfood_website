@@ -1,0 +1,89 @@
+/* breadcrumb navigation */
+.breadcrumb-nav {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    margin: 50px;
+  } 
+  .breadcrumb-nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  .breadcrumb-nav a:hover {
+    text-decoration: underline;
+  }
+  .breadcrumb-nav a:first-child {
+    font-weight: bold;
+  }
+
+  /* title */
+.title h2{
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+    
+}
+
+  /* image */
+.recipe-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+/* rating */
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
+
+.rating h3 {
+    
+    margin-right: 10px; 
+}
+.meter-container {
+    display: flex;
+    align-items: center;
+}
+
+.meter-container meter {
+    width: 100px; 
+    height: 30px; 
+    
+    border: 1px solid #ccc;
+    
+    margin-right: 5px; 
+}
+
+.meter-container span {
+    margin-left: 20px;
+    font-size: 16px; 
+}
+.Introduction p {
+    line-height: 1.5;
+
+}
+
+
+/* table of ingredients */
+.ingredient-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ingredient-table th, .ingredient-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ingredient-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .ingredient-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ingredient-table tr:hover {
+    background-color: #ddd;
+  }
