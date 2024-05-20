@@ -1,0 +1,136 @@
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.checkbox-group label {
+  font-size: 17px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="number"],
+input[type="file"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* radio edit */
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+
+.radio-item label {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+#ingredients {
+  margin-bottom: 10px;
+}
+
+.ingredient {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.delete-ingredient {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#add-ingredient {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button[type="submit"],
+button[type="reset"].reset-button {
+  width: 48%;
+  padding: 10px;
+}
+
+button[type="submit"] {
+  background-color: #739add;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button[type="reset"].reset-button {
+  background-color: #e1776f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  font-size: 10px; 
+}
+
+.checkbox-group label {
+  margin-left: 5px; 
+}

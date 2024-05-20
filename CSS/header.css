@@ -1,7 +1,7 @@
 /* Navigation Bar & body main page*/
 .navbar {
   overflow: hidden;
-  background-color: #6b6b6b;
+  background-color: #739c76;
 }
 
 .navbar a {
@@ -18,7 +18,7 @@
 }
 
 .navbar a:hover {
-  background-color: #aea8a8;
+  background-color: #5f675a;
   color: rgb(35, 35, 35);
   opacity: 0.8;
 
@@ -27,14 +27,26 @@
 
 .navbar a.active {
   font-weight: bold;
-  background-color: #ddd;
+  background-color: #d6f5de;
   color: rgb(12, 12, 12);
 }
 
 
+html {
+	background-color:darkgray;
+	background-image:url("../media/wallpaper.jpg");
+}
+
 /* body main page */
 body {
   font-family: "Segoe UI", sans-serif;
+  background-color:white;
+	width:80%;
+	max-width:1000px;
+	min-width:500px;
+	padding:0 20px 20px 20px; 
+	margin:20px auto;
+	border:0px dotted  gray;
 }
 
 

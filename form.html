@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Recipe</title>
+  <link rel="stylesheet" href="./CSS/form.css">
+  <link rel="stylesheet" href="./CSS/header.css">
+  <link rel="stylesheet" href="./CSS/footer.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Main Page</a>
+    <a href="recipepage.html">Recipe Page</a>
+    <a class="active" href="form.html">Add Recipe</a>
+  </div>
+
+  <div class="main-page">
+    <div class="title">
+      <h1>Add New Recipe!</h1>
+      <p>If you have any delicous Vietnamese recipe that you love and would like to share, please fill this form!</p>
+    </div>
+
+    <!-- <div class="recipe-title">
+                <h3>Recipe title</h3>
+            </div> -->
+    <form action="mailto:ancaoquynh@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <label for="recipe-title">Recipe title</label>
+        <input type="text" id="recipe-title" name="recipe-title" placeholder="Example: Cheese Cake">
+      </div>
+
+      <div class="form-group">
+        <label>Difficulty level estimated</label>
+        <br>
+        <div class="radio-group">
+          <div class="radio-item">
+            <input type="radio" id="beginner" name="difficulty" value="beginner">
+            <label for="beginner">Beginner (no initial experience)</label>
+          </div>
+          <div class="radio-item">
+            <input type="radio" id="easy" name="difficulty" value="easy">
+            <label for="easy">Easy</label>
+          </div>
+          <div class="radio-item">
+            <input type="radio" id="medium" name="difficulty" value="medium">
+            <label for="medium">Medium</label>
+          </div>
+          <div class="radio-item">
+            <input type="radio" id="hard" name="difficulty" value="hard">
+            <label for="hard">Hard</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Ingredients</label>
+        <div id="ingredients">
+          <div class="ingredient">
+            <input type="text" name="ingredient[]" placeholder="Ingredient">
+            <input type="text" name="unit[]" placeholder="Unit">
+            <input type="number" name="amount[]" placeholder="Amount">
+            <button type="button" class="delete-ingredient">Delete Ingredient</button>
+          </div>
+          <button type="button" id="add-ingredient">Add more ingredients</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instruction</label>
+        <textarea id="instructions" name="instructions" rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="video-link">Link to instruction video reference</label>
+        <input type="url" id="video-link" name="video-link">
+      </div>
+
+      <div class="form-group">
+        <label for="food-picture">Upload food picture here!</label>
+        <input type="file" id="food-picture" name="food-picture">
+      </div>
+
+      <div class="form-group">
+        <label for="author-name">Author’s name:</label>
+        <input type="text" id="author-name" name="author-name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="agreement" name="agreement">
+        <label for="agreement">I agree to have the submitted information collected and displayed</label>
+      </div>
+
+      <div class="button-group">
+        <button type="submit">Submit Recipe</button>
+        <button type="reset" class="reset-button">Reset</button>
+      </div>
+    </form>
+
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <address>
+      <p>Contact:</p>
+      <p>Cao Quynh An – Budapest, Hungary</p>
+      <a href="mailto:ancaoquynh@gmail.com">ancaoquynh@gmail.com</a>
+    </address>
+    <br>
+  </footer>
+
+
+
+  <script src="./javascript/formscript.js"></script>
+
+
+
+
+</body>
+
+</html>
