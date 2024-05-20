@@ -2,6 +2,7 @@
 .navbar {
   overflow: hidden;
   background-color: #739c76;
+  
 }
 
 .navbar a {
@@ -13,6 +14,7 @@
   text-decoration: none;
   font-size: 14px;
   transition: opacity 0.3s ease;
+  
 
 
 }
@@ -33,20 +35,19 @@
 
 
 html {
-	background-color:darkgray;
-	background-image:url("../media/wallpaper.jpg");
+  background-color: darkgray;
+  background-image: url("../media/wallpaper.jpg");
 }
 
 /* body main page */
 body {
   font-family: "Segoe UI", sans-serif;
-  background-color:white;
-	width:80%;
-	max-width:1000px;
-	min-width:500px;
-	padding:0 20px 20px 20px; 
-	margin:20px auto;
-	border:0px dotted  gray;
+  background-color: white;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 500px;
+  margin: 20px auto;
+  border: 0px dotted gray;
 }
 
 
@@ -56,6 +57,7 @@ body {
   margin: 0 auto;
   position: relative;
   text-align: justify;
+  padding: 0 20px 20px 20px;
 }
 
 * {
@@ -68,6 +70,42 @@ a {
 }
 
 a:visited {
-  color: #663399;
+  color: #573976;
   font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjust navigation for smaller screens */
+  .navbar {
+    text-align: center;
+  }
+  .navbar a {
+    float: none;
+    display: inline-block;
+  }
+   /* Adjust body padding and width */
+   body {
+    width: 100%;
+    padding: 0 10px 20px 10px;
+  }
+
+  /* Adjust main page width */
+  .main-page {
+    max-width: 100%;
+  }
+
+  /* Adjust footer alignment */
+  .footer {
+    padding-left: 20px; /* Adjust as needed */
+  }
 }
