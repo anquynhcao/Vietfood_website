@@ -1,6 +1,6 @@
 .title {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25em;
   margin-top: 20px;
 }
 
@@ -17,7 +17,7 @@
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 1em;
   margin-left: 0;
 
 }
@@ -28,22 +28,6 @@
   color: #01447e;
   text-decoration: underline;
 }
-
-/* .search button {
-    padding: 8px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 5px; 
-  }
-  
-  .search button:hover {
-    background-color: #45a049;
-  }
-   */
 
 
 
@@ -83,7 +67,7 @@
 }
 
 .post-name {
-  font-size: 25px;
+  font-size: 1.5625em;
   font-weight: bold;
 }
 
@@ -104,6 +88,22 @@
   width: 300px;
   height: 200px;
   overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .post-content {
+    flex-direction: column; 
+  }
+
+  .post-description {
+    margin: 10px 0;
+    text-align: justify;
+    margin: 20px 0;
+  }
+  .post-image {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Ensure image maintains aspect ratio */
+    overflow: hidden;
+  }
 }
 
 

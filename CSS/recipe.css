@@ -1,6 +1,6 @@
 /* breadcrumb navigation */
 .breadcrumb-nav {
-  font-size: 20px;
+  font-size: 1.25em;
   color: #333;
   margin-top: 20px;
   margin: 50px;
@@ -23,7 +23,7 @@
 /* title */
 .title h2 {
   margin: 10px 0px 0px 0px;
-  font-size: 40px;
+  font-size: 3em;
 
 }
 
@@ -62,7 +62,7 @@
 
 .meter-container span {
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .Introduction p {
@@ -119,12 +119,12 @@
 
 /* instruction */
 .instructions {
-  font-size: 16px;
+  font-size: 1em;
   line-height: 2.0;
 }
 
 .instructions h2 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -166,7 +166,7 @@
   text-align: center;
   margin-top: 10px;
   font-style: italic;
-  font-size: 15px;
+  font-size: 0.9375em;
   line-height: 1.0;
 }
 

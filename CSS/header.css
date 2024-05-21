@@ -12,7 +12,7 @@
   text-align: center;
   padding: 10px 15px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875em;
   transition: opacity 0.3s ease;
   
 
@@ -96,16 +96,54 @@ img {
    /* Adjust body padding and width */
    body {
     width: 100%;
-    padding: 0 10px 20px 10px;
+    min-width: 150px;
   }
 
-  /* Adjust main page width */
+
   .main-page {
     max-width: 100%;
   }
 
   /* Adjust footer alignment */
   .footer {
-    padding-left: 20px; /* Adjust as needed */
+    padding-left: 20px; 
   }
+}
+
+@media screen and (min-width: 992px) {
+  .main-page {
+    max-width: 90%;
+  }
+}
+
+/* printing media */
+/* Stylesheet for print media */
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  html {
+    background: white;
+  }
+
+  body {
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+    min-width: initial;
+    max-width: initial;
+    box-shadow: initial;
+  }
+
+  /* Hide navigation for printing */
+  .navbar {
+    display: none;
+  }
+
+  a:after {
+    content: " (" attr(href) ")";
+  }
+
+ 
 }
